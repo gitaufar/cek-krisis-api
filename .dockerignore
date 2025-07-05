@@ -1,9 +1,20 @@
+# Versi optimal
 .git
-node_modules
-venv
-__pycache__
-*.pyc
+__pycache__/
+*.py[cod]
 *.pyo
-.env
 *.log
-tests
+*.env
+*.db
+*.sqlite
+*.ipynb
+
+node_modules/
+venv/
+tests/
+*.csv  # <--- hanya jika dataset tidak diperlukan saat deploy
+
+# Package-related
+*.egg-info/
+*.tar.gz
+*.whl
